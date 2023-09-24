@@ -4,7 +4,7 @@
 def frequencies(items):
     frequencies = {}
     for item in items:
-        if not isinstance(str):
+        if not isinstance(item, str):
             item = str(item)
         frequencies[item] += 1
     return frequencies
